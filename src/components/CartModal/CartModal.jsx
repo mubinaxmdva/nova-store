@@ -19,7 +19,7 @@ function CartModal({ isOpen, onClose }) {
 
   return (
     <div
-      className="fixed inset-0 z-[2000] flex items-center justify-center bg-black/50 p-3 sm:p-4"
+      className="fixed inset-0 z-2000 flex items-center justify-center bg-black/50 p-3 sm:p-4"
       onClick={onClose}>
       <div
         className="w-full max-w-2xl max-h-[94vh] overflow-hidden rounded-2xl sm:rounded-3xl bg-white shadow-2xl"
@@ -91,7 +91,7 @@ function CartModal({ isOpen, onClose }) {
                         type="button"
                         onClick={() => dispatch(removeFromCart(item.id))}
                         className="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-md border border-red-200 text-red-600 transition hover:bg-red-50 sm:h-auto sm:w-auto sm:gap-1 sm:px-2 sm:py-1 sm:text-xs sm:font-medium"
-                        aria-label="Remove from favorites">
+                        aria-label="Remove from cart">
                         <FiTrash2 size={14} />
                         <span className="hidden sm:inline">Remove</span>
                       </button>
