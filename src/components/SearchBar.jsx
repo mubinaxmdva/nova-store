@@ -6,7 +6,7 @@ function SearchBar({
   placeholder = "Search products...",
 }) {
   return (
-    <div className="flex justify-center mt-24 ">
+    <div className="flex justify-center ">
       <div className="relative w-full ">
         <input
           value={value}

@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import SearchBar from "../../components/SearchBar";
 import ProductGrid from "../../components/ProductGrid/ProductGrid";
 import { product as products } from "../../assets/data/products";
+import Hero from "../../components/Hero";
 
 const categoryPreview = [
   {
@@ -60,6 +61,7 @@ function Home() {
 
   return (
     <div>
+      <Hero />
       <SearchBar value={search} onChange={setSearch} />
 
       <section className="mb-10 pt-8">

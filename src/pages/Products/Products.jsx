@@ -35,8 +35,9 @@ function Products() {
   }, [search, selectedCategory]);
 
   return (
-    <div>
-      <SearchBar value={search} onChange={setSearch} />
+    <div className="mt-20">
+    
+      <SearchBar  value={search} onChange={setSearch} />
 
       <div className="mt-6 flex items-center justify-between gap-4">
         <h2 className="text-xl font-semibold text-[#111111]">

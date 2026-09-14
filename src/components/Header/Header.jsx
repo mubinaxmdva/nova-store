@@ -47,7 +47,6 @@ function Header({ cartCount = 0 }) {
         >
           NovaStore
         </NavLink>
-      <p>{window.innerWidth}</p>
         {/* Desktop navigation */}
         <nav className="nav" aria-label="Main navigation">
           <NavLink to="/">Home</NavLink>
