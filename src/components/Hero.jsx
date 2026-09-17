@@ -5,19 +5,21 @@ const banners = [
   {
     id: 1,
     image:
-      "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1800&h=520&q=85",
+      "https://images.unsplash.com/photo-1498049794561-7780e7231661?auto=format&fit=crop&w=1800&h=520&q=85",
+
     title: "Everything you need, in one place.",
   },
   {
     id: 2,
     image:
-      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=1800&h=520&q=85",
+      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1800&h=520&q=85",
+
     title: "Discover the latest technology.",
   },
   {
     id: 3,
     image:
-      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1800&h=520&q=85",
+      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=1800&h=520&q=85",
     title: "Smart choices for everyday life.",
   },
   {
@@ -29,7 +31,8 @@ const banners = [
   {
     id: 5,
     image:
-      "https://images.unsplash.com/photo-1498049794561-7780e7231661?auto=format&fit=crop&w=1800&h=520&q=85",
+      "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1800&h=520&q=85",
+
     title: "Upgrade your setup.",
   },
   {
